@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "reverse",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ReverseInteger.sol": "ReverseInteger"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ReverseInteger.sol": {
+			"keccak256": "0x56aa061056cb876ebc3dafabeaef1bb4223dc24c3cd0823abebf3cff0d2ef8bc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c60ae6bef3e89e155f876b07bcccd22240a91c8aacb5325bfc6d11811f1d0eb5",
+				"dweb:/ipfs/QmNidjHzMjKibt829z76oWn1HCFQ7jiM1s9ZnUtP3tgsbJ"
+			]
+		}
+	},
+	"version": 1
+}

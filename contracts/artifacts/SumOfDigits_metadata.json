@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "sumDigits",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SumOfDigits.sol": "SumOfDigits"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SumOfDigits.sol": {
+			"keccak256": "0xd4e8852dc54d05c94a7fdf2760dfed31f4e37b89a35f9e0bfa8d2541234cdaeb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fd925d78af269454e249b24d296ad3521d99d1dd27dbf7e317ba55d951fd1772",
+				"dweb:/ipfs/QmUe8fBmRte6962RG345FAMUrq1bk4sD46ehpcD1wtBRHk"
+			]
+		}
+	},
+	"version": 1
+}
