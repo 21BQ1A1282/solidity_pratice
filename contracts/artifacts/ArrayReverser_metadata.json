@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "reverse",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ArrayReverser .sol": "ArrayReverser"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ArrayReverser .sol": {
+			"keccak256": "0x9ecf35257522694cc2337c6e4abb1ff523bc982f6ae7caf63a06fa2f49e2801f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://27a68d1d9d5f72ec90aa03101b42e78e345baf30676dc00c5e5f8e1d7673c114",
+				"dweb:/ipfs/QmQhrYqsT9pRrTq1wDW2HqzJ1VNGqEubrKz2cdoYZMVod2"
+			]
+		}
+	},
+	"version": 1
+}

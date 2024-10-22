@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "bubbleSort",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ArraySorter .sol": "ArraySorter"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ArraySorter .sol": {
+			"keccak256": "0xd09f2e26e830f2b7c5f467346aaad6b7d642d3994ef1986c70625fc19fbe390d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a671220543c5777963d19c39e161c11ac9701783fd78b1a4ec72bd1e234c646a",
+				"dweb:/ipfs/QmSVeYnZrkzakyjGdKXxTpNvS5g9Gf5JtZR76SnhbLAeYT"
+			]
+		}
+	},
+	"version": 1
+}

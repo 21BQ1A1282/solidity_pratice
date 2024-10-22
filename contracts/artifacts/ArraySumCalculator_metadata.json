@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ArraySumCalculator .sol": "ArraySumCalculator"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ArraySumCalculator .sol": {
+			"keccak256": "0xb0117d0d6ed59a406e007bf75c4502d9488d1bc344f85a174120065904485aee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b3cac9e2c3c0cfb2e024e9e575ed014abb6dc8b9f62cc93adb41e5b139abf226",
+				"dweb:/ipfs/QmStsjspQpVFa3j67Xvpp6rP1AsWRPB8NnKMPi4Cmzs1RX"
+			]
+		}
+	},
+	"version": 1
+}
