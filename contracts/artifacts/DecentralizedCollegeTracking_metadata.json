@@ -1,0 +1,319 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_collegeAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_admin",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_registrationNumber",
+						"type": "string"
+					}
+				],
+				"name": "addCollege",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_collegeAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_studentName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_phoneNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_courseEnrolled",
+						"type": "string"
+					}
+				],
+				"name": "addStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_collegeAddress",
+						"type": "address"
+					}
+				],
+				"name": "blockCollege",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_collegeAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_studentName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_newCourse",
+						"type": "string"
+					}
+				],
+				"name": "changeStudentCourse",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "collegeList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "colleges",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "collegeAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "admin",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "registrationNumber",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "canAddStudents",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numberOfStudents",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllColleges",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_collegeAddress",
+						"type": "address"
+					}
+				],
+				"name": "getNumberOfStudents",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_collegeAddress",
+						"type": "address"
+					}
+				],
+				"name": "unblockCollege",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_collegeAddress",
+						"type": "address"
+					}
+				],
+				"name": "viewCollegeDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "admin",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "registrationNumber",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "canAddStudents",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numberOfStudents",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_collegeAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_studentName",
+						"type": "string"
+					}
+				],
+				"name": "viewStudentDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "phoneNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "courseEnrolled",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DecentralizedCollegeTracking.sol": "DecentralizedCollegeTracking"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DecentralizedCollegeTracking.sol": {
+			"keccak256": "0xddb3de15db0aa122827cd9b7595b086812bf70354cc074732127b9a9b30ee1e6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://81e64cf8995eb4fad9963bf7f03a507dd958c72d0c803c62a58de981c5465870",
+				"dweb:/ipfs/QmfJBU7WuwPSToCd1bV2Lq34it8A5KShAFzzYR1UntwhsH"
+			]
+		}
+	},
+	"version": 1
+}
